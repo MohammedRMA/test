@@ -18,6 +18,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var bgImg: UIImageView!
     
     @IBOutlet weak var titleImg: UIImageView!
+    
+    @IBOutlet weak var gt: UIImageView!
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,7 +39,7 @@ class ViewController: UIViewController {
         backBtn.isHidden = false
     }
     
-    @IBAction func backPressed(_ sender: Any) {
+    @IBAction func backPresssed(_ sender: Any) {
         welcomeBtn.isHidden = false
         bgImg.isHidden = true
         titleImg.isHidden = true
